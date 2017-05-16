@@ -68,7 +68,7 @@ html{
 }
 textarea {
     border: none;
-    min-height: 100px;
+    min-height: 100%;
     width: 100%;
     outline: none;
     resize: none;
@@ -79,6 +79,7 @@ textarea {
     height:50px;
     /*background: red;*/
     color: #fff;
+    cursor: pointer;
     text-align: center;
     line-height: 50px;
     font-size: 24px;
