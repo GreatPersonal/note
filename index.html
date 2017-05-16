@@ -19,7 +19,7 @@
             <h3 class="title"  @mousedown="md(i,$event)">{{v.title}}</h3>
             <span @click.detele.stop="deleteNote(i)">X</span>
             <div class="content">
-                <textarea @blur="save" v-model="v.content" ></textarea>
+                <textarea @keyup.stop="save" v-model="v.content" ></textarea>
             </div>
         </div>
     </div>
